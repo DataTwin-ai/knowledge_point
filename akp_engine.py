@@ -11,7 +11,7 @@ Added:
   * Versions: a re-run saves akp_version n+1 (old rows SUPERSEDED, is_latest false); inserted_at on every row.
   * Model tiers SIMPLE / COMPLEX; Gemini + Claude in parallel; raw answers cached; embeddings PENDING-safe.
 Requires the project modules: db_insert, llm_runtime, transport, vector_store.
-"""
+""" 
 from __future__ import annotations
 
 import argparse
